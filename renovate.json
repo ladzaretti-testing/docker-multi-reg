@@ -1,0 +1,13 @@
+{
+  "extends": ["config:base"],
+  "logLevel": "debug",
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "registryUrls": [
+        "https://registry-1.docker.io",
+        "https://example.internal.registry"
+      ]
+    }
+  ]
+}
