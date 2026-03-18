@@ -1,6 +1,5 @@
 {
   "extends": ["config:base"],
-  "logLevel": "debug",
   "packageRules": [
     {
       "matchDatasources": ["docker"],
